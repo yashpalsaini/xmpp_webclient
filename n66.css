@@ -1,0 +1,210 @@
+body {
+    font-family: Helvetica;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.button{
+ padding: 10px;
+    background-color: #ddd;
+    border: solid 1px #666;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #ddf;
+}
+
+
+#one_one_chat{
+float:left;
+width: 1500px;
+    height: 1500px;
+    
+}
+
+#multi_chat{
+width: 1500px;
+    height: 1500px;
+    
+}
+
+
+
+
+
+
+#toolbar_one{
+
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#main_page_dialog {
+
+    float: left;
+    width: 1500px;
+    height: 1500px;
+}
+
+
+#chat-area_one {
+
+    float: left;
+    width: 600px;
+    height: 300px;
+}
+
+.chat-messages {
+
+    height: 180px;
+    border-bottom: solid 2px #ddd;
+    overflow: auto;
+}
+
+#chat-area_one input {
+
+    margin-top: 10px;
+    width: 95%;
+}
+
+#roster-area {
+    float: right;
+    border-left: solid 2px #ddd;
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+.chat-name {
+    color: #c33;
+}
+
+.chat-message .me {
+    color: #33c;
+}
+
+.chat-event {
+    font-style: italic;
+    font-size: 75%;
+}
+
+.roster-contact {
+    padding: 3px;
+}
+
+.roster-contact:hover {
+    background-color: #aaa;
+    color: white;
+}
+
+.roster-name {
+    font-size: 150%;
+}
+
+.online {
+    color: #3c3;
+}
+
+.away {
+    color: #c33;
+}
+
+.offline {
+    color: #ccc;
+}
+
+
+.clear {
+    clear: both;
+}
+
+#toolbar {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#room-name {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#room-topic {
+    font-style: italic;
+}
+
+#chat-area {
+
+    float: left;
+    width: 500px;
+}
+
+#chat {
+    overflow: auto;
+    height: 400px;
+    border: solid 1px #ccc;
+}
+
+#participants {
+
+    float: left;
+    width: 200px;
+    height: 500px;
+    overflow: auto;
+}
+
+#participant-list {
+    list-style: none;
+}
+
+#input {
+    width: 95%;
+    font-size: 120%;
+}
+
+.notice {
+    font-style: italic;
+    font-weight: bold;
+    color: #3d3;
+}
+
+.error {
+    color: #d33;
+}
+
+.message {
+    color: #aaa;
+}
+
+.nick {
+    color: #66f;
+}
+
+.self {
+    color: #f66;
+}
+
+.body {
+    color: #000;
+}
+
+.delayed {
+    opacity: 0.5;
+}
+
+.private {
+    background-color: #fdd;
+}
+
+.action {
+    color: #333;
+}
